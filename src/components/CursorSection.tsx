@@ -5,7 +5,7 @@ const CursorSection: React.FC = () => {
   return (
     <TopicSection
       title="Cursor"
-      description="Working with AI-powered coding tools and Large Language Models (LLMs) for web development."
+      description="Working with AI-powered coding tools for web development."
     >
       <div className="space-y-6">
         
