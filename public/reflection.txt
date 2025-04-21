@@ -1,0 +1,79 @@
+hello my name is tom and this is my reflection.
+This semester, we have covered each of the following topics:
+
+1. **HTML**
+    - Example: [Link to GitHub repo or shared drive with example]
+    - Discussion: HTML forms the backbone of any web page, providing the structure and semantic meaning to the content.
+
+2. **CSS**
+    - Example: [Link to GitHub repo or shared drive with example]
+    - Discussion: CSS is essential for styling and layout, enabling responsive and visually appealing designs.
+
+3. **JavaScript**
+    - Example: [Link to GitHub repo or shared drive with example]
+    - Discussion: JavaScript adds interactivity and dynamic behavior to web pages, making them more engaging.
+
+4. **SSH & SCP (w/ SSH Keys)**
+    - Example: [Link to GitHub repo or shared drive with example]
+    - Discussion: SSH and SCP are crucial for securely accessing and transferring files to remote servers.
+
+5. **React (w/ Components)**
+    - Example: [Link to GitHub repo or shared drive with example]
+    - Discussion: React simplifies building dynamic UIs with reusable components and state management.
+
+6. **Bootstrap**
+    - Example: [Link to GitHub repo or shared drive with example]
+    - Discussion: Bootstrap provides a framework for quickly building responsive and consistent designs.
+
+7. **Tailwind CSS**
+    - Example: [Link to GitHub repo or shared drive with example]
+    - Discussion: Tailwind CSS offers utility-first classes for rapid and customizable styling.
+
+8. **ShadCN/UI**
+    - Example: [Link to GitHub repo or shared drive with example]
+    - Discussion: ShadCN/UI enhances UI development with pre-designed components and themes.
+
+9. **Design for User Experience (Krug)**
+    - Example: [Link to GitHub repo or shared drive with example]
+    - Discussion: UX design focuses on creating intuitive and user-friendly interfaces.
+
+10. **Accessibility**
+     - Example: [Link to GitHub repo or shared drive with example]
+     - Discussion: Accessibility ensures that web content is usable by people with disabilities.
+
+11. **Figma**
+     - Example: [Link to GitHub repo or shared drive with example]
+     - Discussion: Figma facilitates collaborative design and prototyping for web applications.
+
+12. **Cursor**
+     - Example: [Link to GitHub repo or shared drive with example]
+     - Discussion: Cursor aids in integrating AI/LLMs into web development workflows.
+
+13. **Google Firebase for Backend**
+     - Example: [Link to GitHub repo or shared drive with example]
+     - Discussion: Firebase provides backend services like authentication and database management.
+
+---
+
+### Reflection Prompts
+
+1. **React+Vite vs. HTML, CSS, & JavaScript**
+    - Discussion: [Your detailed response]
+
+2. **Takeaways from Krug's Book**
+    - Discussion: [Your detailed response]
+
+3. **Importance of Accessibility**
+    - Discussion: [Your detailed response]
+
+4. **Design Sprints & Figma**
+    - Discussion: [Your detailed response]
+
+5. **AI/LLMs through Cursor**
+    - Discussion: [Your detailed response]
+
+6. **Favorite Topic**
+    - Discussion: [Your detailed response]
+
+7. **Topics to Cover in More Detail**
+    - Discussion: [Your detailed response]

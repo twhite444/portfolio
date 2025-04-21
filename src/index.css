@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-sans: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --color-primary-500: #7C83FF;
+  --color-primary-600: #646CFF;
+  --color-background-light: #F5F7FA;
+  --color-background-dark: #FFFFFF;
+  --color-text-light: #333333;
+  --color-text-dark: #111111;
+  --breakpoint-3xl: 1920px;
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  
+  /* Custom Color Theme - Sage Green and Sunset Orange - Brighter */
+  --sage-green: 120 45% 75%;
+  --sage-green-dark: 120 45% 65%;
+  --sunset-orange: 25 100% 75%;
+  --sunset-orange-dark: 25 100% 65%;
+  
+  /* ShadCN Variables - Adjusted for Sage/Sunset Theme - Brighter & More Readable */
+  --background: 210 20% 98%;
+  --foreground: 220 20% 20%;
+  --card: 0 0% 100%;
+  --card-foreground: 220 20% 20%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 220 20% 20%;
+  --primary: 25 95% 65%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 120 50% 65%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 210 20% 92%;
+  --muted-foreground: 215 20% 35%;
+  --accent: 25 90% 70%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 85% 65%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 214 20% 85%;
+  --input: 214 20% 80%;
+  --ring: 25 80% 65%;
+  --radius: 0.75rem;
+  
+  /* Theme Colors */
+  --sage: 120 25% 75%;
+  --sage-dark: 120 25% 55%;
+  --sunset: 25 100% 75%;
+  --sunset-dark: 25 100% 65%;
+}
+
+/* Base styles - these will complement Tailwind's base styles */
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@utility base-elements {
+  body {
+    min-height: 100vh;
+  }
+  
+  button {
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+}
+
+/* Global section styling for portfolio components */
+.bg-gray-800 h3,
+.bg-gray-800 .text-xl {
+  color: white !important;
+}
+
+.bg-gray-900 h4,
+.bg-gray-800 h4,
+h4.text-primary-500,
+h4.text-orange-300 {
+  color: rgb(251, 146, 60) !important; /* text-orange-400 */
+}
+
+.bg-gray-900 p,
+.bg-gray-800 p,
+.bg-gray-900 ul,
+.bg-gray-800 ul,
+.bg-gray-900 ol,
+.bg-gray-800 ol,
+.bg-gray-900 li,
+.bg-gray-800 li,
+.bg-gray-900 code,
+.bg-gray-800 code,
+.bg-gray-900 pre,
+.bg-gray-800 pre {
+  color: white !important;
+}
+
+/* Fix font weight for h4 headings */
+h4.text-lg.font-medium {
+  color: rgb(251, 146, 60) !important;
+}
+
+/* Fix h5 headings */
+h5.font-medium.text-orange-300 {
+  color: rgb(251, 146, 60) !important;
+}
+
+/* Ensure consistent text in divs inside gray backgrounds */
+.bg-gray-900 div,
+.bg-gray-800 div {
+  color: white;
+}
